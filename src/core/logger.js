@@ -34,6 +34,10 @@ const commandExec = (content) => {
   write(content, 'white', 'bgMagenta', 'CMD', false);
 }
 
+const commandExecSlash = (content) => {
+  write(content, 'white', 'bgMagenta', 'CMD-SLASH', false);
+}
+
 const slashCommand = (content) => {
   write(content, 'magenta', 'bgBlack', 'SLASH-CMD', false);
 }
@@ -107,5 +111,6 @@ module.exports = {
   info,
   log,
   debug,
-  commandExec
+  commandExec,
+  commandExecSlash
 }

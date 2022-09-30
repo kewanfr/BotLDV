@@ -28,6 +28,10 @@ console.cmdExec = (...args) => {
   Logger.commandExec([...args]);
 }
 
+console.cmdExecSlash = (...args) => {
+  Logger.commandExecSlash([...args]);
+}
+
 console.warn = (...args) => {
   // _warn(...args);
   Logger.warn([...args]);
